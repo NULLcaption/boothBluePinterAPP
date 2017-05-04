@@ -5,13 +5,9 @@ import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -45,52 +41,39 @@ public class BoothActivity extends AppCompatActivity {
     /*编辑张数*/
     EditText tv1;
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_booth);
+        setContentView(R.layout.layout_booth);
 
-        Button Button1 = (Button) findViewById(R.id.button1);
+        /*Button Button1 = (Button) findViewById(R.id.button1);
         statusBox = new StatusBox(this, Button1);
         megBox = new MessageBox(this);
         tv1 = (EditText) findViewById(R.id.editText);
         tv1.setText("10");
         SelectedBDAddress = "";
-        /*判断设备是否支持蓝牙设备*/
+        *//*判断设备是否支持蓝牙设备*//*
         if (!ListBluetoothDevice())
             finish();
-        /*循环多张打印*/
+        *//*循环多张打印*//*
         Button1.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View arg0) {
                 Print1(SelectedBDAddress);
             }
         });
         Button Button2 = (Button) findViewById(R.id.button2);
-        /*单张打印*/
+        *//*单张打印*//*
         Button2.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View arg0) {
                 Print2(SelectedBDAddress);
             }
         });
-        /*单张打印———格式不同*/
+        *//*单张打印———格式不同*//*
         Button Button3 = (Button) findViewById(R.id.button3);
         Button3.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View arg0) {
                 Print3(SelectedBDAddress);
             }
-        });
-
-        /*页面添加的浮动按钮*/
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        });*/
     }
 
     /**

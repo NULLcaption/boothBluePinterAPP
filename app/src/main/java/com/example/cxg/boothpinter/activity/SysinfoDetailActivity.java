@@ -97,11 +97,10 @@ public class SysinfoDetailActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.printer:
-                    Intent intent = new Intent(SysinfoDetailActivity.this,
-                            BoothActivity.class);
+                    Intent intent = new Intent(SysinfoDetailActivity.this,BoothActivity.class);
                     startActivity(intent);
-                    overridePendingTransition(R.anim.in_from_right,
-                            R.anim.out_to_left);
+                    overridePendingTransition(R.anim.in_from_right,R.anim.out_to_left);
+                    System.out.println("printer!!");
                     break;
                 case R.id.back_home:
                     XPPApplication.exit(SysinfoDetailActivity.this);

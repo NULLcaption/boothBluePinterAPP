@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\baidumapapi_v3_2_0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="46ca4c3c74e1ddc60b45c490485e5df05babe6a5">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_2_0_e3aa63241e3103c041c771990b035c5dc1072b1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a6b96ed8106d62093da890aace81dbd0df5be59e">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\core_0739d5f0ff5ab90c42296aed8a10f7cbeddf4911.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_a4b2feae3486d58d78e71bc2678c90d0f5ec33b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\libammsdk_1dfc0ef5764e4d2c4fe11bfea9eb066d2a156695.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\gesture-imageview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a57044c3c63ea49d46868251ff1bee50c2410c42">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\gesture-imageview_90ef2ce64275097daae16f257998b1d125ed0662.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\gson-2.2.4_d9cc35b0658cda373adfdb3dba7b93de63323691.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\ormlite-core-4.25.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5137332fed1237382421930990165b2901146e9f">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\ormlite-core-4.25_d347447f0e72cbf4fef0c79bdcb0e17e07e1f282.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\ormlite-android-4.25.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a70f4ec5682f86542a1d595fe33a4d65948318e">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\ormlite-android-4.25_f652915a8a88a7392fab0085bdf1daef0bb6d599.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\locSDK_5.01.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8854f80a1a63f6348276dd5c8e96b9096784a513">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\locSDK_5.01_ae6007d24d07dcb82670399cf46f7eb4e62b749a.jar" />
+    </item>
+
+</items>

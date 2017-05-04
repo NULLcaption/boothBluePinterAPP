@@ -1,62 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    tools:context=".activity.BoothActivity">
+    android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/textViewInfo"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/text1" />
-
-    <EditText
-        android:id="@+id/text2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/name1" />
-
+    <!--这是占位符-->
     <TableRow
-        android:id="@+id/tableRow2"
-        android:layout_width="fill_parent"
-        android:layout_height="10dp" >
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
     </TableRow>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dip"
-        android:layout_marginRight="100dip"
-        android:orientation="horizontal"
-        android:weightSum="1">
-
-        <Button
-            android:id="@+id/button_ok"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="3dip"
-            android:background="@color/colorAccent"
-            android:text="@+string/ok"
-            android:textSize="20dp" />
-
-        <Button
-            android:id="@+id/button_no"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="3dip"
-            android:layout_weight="1.67"
-            android:background="@color/colorAccent"
-            android:text="@+string/no"
-            android:textSize="20dp" />
-    </LinearLayout>
-
-    <ListView
-        android:id="@+id/listView1"
+    <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="156dp"
-        android:layout_weight="0.4" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tableRow3">
 
-</LinearLayout>
+        <!--交互正文-->
+        <EditText
+            android:id="@+id/textViewInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text1" />
+
+        <EditText
+            android:id="@+id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewInfo"
+            android:hint="@string/name1" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/text2" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableRow2"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:layout_weight="0.48"
+                android:background="@color/colorAccent"
+                android:text="@+string/ok"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:layout_weight="0.60"
+                android:background="@color/colorAccent"
+                android:text="@+string/no"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_sysinfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linearLayout2" />
+    </RelativeLayout>
+
+</RelativeLayout>

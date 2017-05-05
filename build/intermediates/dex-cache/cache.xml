@@ -39,6 +39,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\ormlite-core-4.25.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5137332fed1237382421930990165b2901146e9f">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\ormlite-core-4.25_d347447f0e72cbf4fef0c79bdcb0e17e07e1f282.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\locSDK_5.01.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8854f80a1a63f6348276dd5c8e96b9096784a513">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\locSDK_5.01_ae6007d24d07dcb82670399cf46f7eb4e62b749a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\AndroidStudioProjects\BoothPinter\app\libs\gesture-imageview.jar"
         jumboMode="false"
         optimize="true"
@@ -57,30 +75,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\ormlite-core-4.25.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5137332fed1237382421930990165b2901146e9f">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\ormlite-core-4.25_d347447f0e72cbf4fef0c79bdcb0e17e07e1f282.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\AndroidStudioProjects\BoothPinter\app\libs\ormlite-android-4.25.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="6a70f4ec5682f86542a1d595fe33a4d65948318e">
         <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\ormlite-android-4.25_f652915a8a88a7392fab0085bdf1daef0bb6d599.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\locSDK_5.01.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8854f80a1a63f6348276dd5c8e96b9096784a513">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\locSDK_5.01_ae6007d24d07dcb82670399cf46f7eb4e62b749a.jar" />
     </item>
 
 </items>

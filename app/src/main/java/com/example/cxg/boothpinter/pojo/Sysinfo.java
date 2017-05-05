@@ -12,6 +12,8 @@ import java.io.Serializable;
 @DatabaseTable(tableName = "sysinfo")
 public class Sysinfo implements Serializable{
 
+    private static final long serialVersionUID = 1L;
+
     /*单据（采购订单、供货通知单、外向交货单）*/
     @DatabaseField
     private String znum;

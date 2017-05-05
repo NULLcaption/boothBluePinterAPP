@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -41,39 +42,54 @@ public class BoothActivity extends AppCompatActivity {
     /*编辑张数*/
     EditText tv1;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_booth);
 
-        /*Button Button1 = (Button) findViewById(R.id.button1);
+        Button Button1 = (Button) findViewById(R.id.button1);
         statusBox = new StatusBox(this, Button1);
         megBox = new MessageBox(this);
         tv1 = (EditText) findViewById(R.id.editText);
         tv1.setText("10");
         SelectedBDAddress = "";
-        *//*判断设备是否支持蓝牙设备*//*
-        if (!ListBluetoothDevice())
-            finish();
-        *//*循环多张打印*//*
-        Button1.setOnClickListener(new Button.OnClickListener() {
+
+        /*判断设备是否支持蓝牙设备*/
+        boolean bluetoothDevice = ListBluetoothDevice();
+        if (!bluetoothDevice){
+            String mags="与蓝牙设备匹配有问题，请检查后重试!";
+            showMessage(mags);
+            finish();//用于结束一个Activity的生命周期
+        }
+
+        /*循环多张打印*/
+       Button1.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View arg0) {
-                Print1(SelectedBDAddress);
+                //Print1(SelectedBDAddress);
+                String systemMags="printer1 for each!";
+                showMessage(systemMags);
             }
         });
+
+        /*单张打印*/
         Button Button2 = (Button) findViewById(R.id.button2);
-        *//*单张打印*//*
         Button2.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View arg0) {
-                Print2(SelectedBDAddress);
+                //Print2(SelectedBDAddress);
+                String systemMags="printer2";
+                showMessage(systemMags);
             }
         });
-        *//*单张打印———格式不同*//*
-        Button Button3 = (Button) findViewById(R.id.button3);
+
+        /*单张打印———格式不同*/
+       Button Button3 = (Button) findViewById(R.id.button3);
         Button3.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View arg0) {
-                Print3(SelectedBDAddress);
+                //Print3(SelectedBDAddress);
+                String systemMags="printer3";
+                showMessage(systemMags);
             }
-        });*/
+        });
     }
 
     /**
@@ -418,7 +434,7 @@ public class BoothActivity extends AppCompatActivity {
      * @return
      */
     public boolean ListBluetoothDevice() {
-        final List<Map<String, String>> list = new ArrayList<Map<String, String>>();
+        final List<Map<String, String>> list = new ArrayList<>();
         ListView listView = (ListView) findViewById(R.id.listView1);
         SimpleAdapter m_adapter = new SimpleAdapter(this, list,
                 android.R.layout.simple_list_item_2, new String[] {
@@ -438,8 +454,9 @@ public class BoothActivity extends AppCompatActivity {
 
         Set<BluetoothDevice> pairedDevices = myBluetoothAdapter
                 .getBondedDevices();
-        if (pairedDevices.size() <= 0)
+        if (pairedDevices.size() <= 0){
             return false;
+        }
         for (BluetoothDevice device : pairedDevices) {
             Map<String, String> map = new HashMap<String, String>();
             map.put("DeviceName", device.getName());

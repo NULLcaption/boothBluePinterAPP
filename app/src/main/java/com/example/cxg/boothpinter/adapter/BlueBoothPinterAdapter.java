@@ -15,11 +15,12 @@ import com.example.cxg.boothpinter.pojo.Ztwm004;
 
 import java.util.ArrayList;
 import java.util.List;
-
 /**
- * 系统物料列表适配器
- * Created by Administrator on 2017/5/2.
- */
+ * description: 系统物料列表适配器
+ * author: xg.chen
+ * date: 2017/6/29 13:34
+ * version: 1.0
+*/
 
 public class BlueBoothPinterAdapter extends BaseAdapter {
 
@@ -59,11 +60,16 @@ public class BlueBoothPinterAdapter extends BaseAdapter {
         if (convertView == null) {
             hodler = new ViewHolder();
             convertView = layoutInflater.inflate(R.layout.layout_sysinfo, null);
-            hodler.matnr = (TextView) convertView.findViewById(R.id.matnr);
-            hodler.maktx = (TextView) convertView.findViewById(R.id.maktx);
-            hodler.lgmng = (TextView) convertView.findViewById(R.id.lgmng);
-            hodler.meins = (TextView) convertView.findViewById(R.id.Meins);
-            hodler.zlichn = (TextView) convertView.findViewById(R.id.zlichn);
+            hodler.matnr = (TextView) convertView.findViewById(R.id.matnr);//物料编码
+            hodler.maktx = (TextView) convertView.findViewById(R.id.maktx);//物料描述
+            hodler.werks = (TextView) convertView.findViewById(R.id.werks);//工厂
+            hodler.znum = (TextView) convertView.findViewById(R.id.znum);//单据号
+            hodler.zlichn = (TextView) convertView.findViewById(R.id.zlichn);//版本
+            hodler.lgmng = (TextView) convertView.findViewById(R.id.lgmng);//交货数量
+            hodler.Zmenge = (TextView) convertView.findViewById(R.id.Zmenge);//未清数量
+            hodler.Meins = (TextView) convertView.findViewById(R.id.Meins);//单位
+            hodler.lgmng = (TextView) convertView.findViewById(R.id.lgmng);//托盘数量
+            hodler.erfme = (TextView) convertView.findViewById(R.id.erfmgl);//托盘单位
             convertView.setTag(hodler);
         } else {
             hodler = (ViewHolder) convertView.getTag();
@@ -72,9 +78,14 @@ public class BlueBoothPinterAdapter extends BaseAdapter {
         Ztwm004 ztwm004 = ztwm004List.get(position);
         hodler.matnr.setText(ztwm004.getMatnr());
         hodler.maktx.setText(ztwm004.getEMaktx());
-        hodler.lgmng.setText(ztwm004.getLgmng());
-        hodler.meins.setText(ztwm004.getMeins());
+        hodler.werks.setText(ztwm004.getWerks());
+        hodler.znum.setText(ztwm004.getZnum());
         hodler.zlichn.setText(ztwm004.getZlichn());
+        hodler.lgmng.setText(ztwm004.getLgmng());
+        hodler.Zmenge.setText(ztwm004.getZmenge());
+        hodler.Meins.setText(ztwm004.getMeins());
+        hodler.lgmng.setText(ztwm004.getLgmng());
+        hodler.erfme.setText(ztwm004.getErfme());
 
         /*设置列表的点击事件*/
         final int n = position;
@@ -100,18 +111,27 @@ public class BlueBoothPinterAdapter extends BaseAdapter {
         pViewHodler.matnr.setText(null);
         pViewHodler.maktx.setText(null);
         pViewHodler.lgmng.setText(null);
-        pViewHodler.meins.setText(null);
+        pViewHodler.Meins.setText(null);
         pViewHodler.zlichn.setText(null);
+        pViewHodler.werks.setText(null);
+        pViewHodler.znum.setText(null);
+        pViewHodler.Zmenge.setText(null);
+        pViewHodler.erfme.setText(null);
     }
 
     /**
      * view holder
      */
     private static class ViewHolder {
-        public TextView matnr = null;
-        public TextView maktx = null;
-        public TextView lgmng = null;
-        public TextView meins = null;
-        public TextView zlichn = null;
+        TextView matnr = null;
+        TextView maktx = null;
+        TextView lgmng = null;
+        TextView zlichn = null;
+        TextView werks = null;
+        TextView znum = null;
+        TextView Zmenge = null;
+        TextView Meins = null;
+        TextView erfme = null;
+
     }
 }

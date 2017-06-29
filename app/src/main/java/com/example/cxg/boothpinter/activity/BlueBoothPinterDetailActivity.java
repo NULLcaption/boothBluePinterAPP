@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.cxg.boothpinter.R;
 import com.example.cxg.boothpinter.application.XPPApplication;
-import com.example.cxg.boothpinter.pojo.Sysinfo;
+import com.example.cxg.boothpinter.pojo.Ztwm004;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -35,7 +35,7 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
     private Button printer;
     private Button backHome;
     private Button exit;
-    private Sysinfo sysinfo;
+    private Ztwm004 ztwm004;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,20 +71,20 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
     private void initData() {
         Bundle bun = getIntent().getExtras();
         if (bun != null) {
-            sysinfo = (Sysinfo) bun.get("sysinfo");
+            ztwm004 = (Ztwm004) bun.get("ztwm004");
         }
-        if (sysinfo != null) {
-            name.setText(sysinfo.getName1());
-            znum.setText(sysinfo.getZnum());
-            werks.setText(sysinfo.getWerks());
-            matnr.setText(sysinfo.getMatnr());
-            zlichn.setText(sysinfo.getZlichn());
-            lgmng.setText(sysinfo.getLgmng());
-            Zmenge.setText(sysinfo.getZmenge());
+        if (ztwm004 != null) {
+            name.setText(ztwm004.getEName2());
+            znum.setText(ztwm004.getZnum());
+            werks.setText(ztwm004.getWerks());
+            matnr.setText(ztwm004.getMatnr());
+            zlichn.setText(ztwm004.getZlichn());
+            lgmng.setText(ztwm004.getLgmng());
+            Zmenge.setText(ztwm004.getZmenge());
             SimpleDateFormat dateString = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             Date dateNow = new Date();
             date.setText(dateString.format(dateNow));
-            erfmgl.setText(sysinfo.getErfmgl());
+            erfmgl.setText(ztwm004.getErfmgl());
             mark.setText("1");
         }
     }

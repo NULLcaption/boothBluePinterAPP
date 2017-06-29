@@ -2,7 +2,7 @@ package com.example.cxg.boothpinter.provider;
 
 import android.app.Activity;
 
-import com.example.cxg.boothpinter.pojo.Sysinfo;
+import com.example.cxg.boothpinter.pojo.Ztwm004;
 
 import java.util.List;
 
@@ -14,18 +14,17 @@ import java.util.List;
 public interface IDataProvider {
     /**
      * init data
+     *
      * @param activity
      */
-    public void startDateUpdateTasks(Activity activity);
-    /**
-     *  获取门店列表
-     */
-    public boolean getSysinfoList();
+    void startDateUpdateTasks(Activity activity);
 
     /**
-     * 获取门店信息
-     * @param par
+     * 根据单据获取采购物料信息
+     *
+     * @param string
      * @return
      */
-    public List<Sysinfo> getSysinfo(String par);
+
+    List<Ztwm004> getPurchasedItemInfo(String string);
 }

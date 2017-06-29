@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.example.cxg.boothpinter.pojo.Sysinfo;
+import com.example.cxg.boothpinter.pojo.Ztwm004;
 import com.example.cxg.boothpinter.utils.Helpers;
 
 import java.util.Date;
@@ -61,12 +61,8 @@ public class WebService implements IDataProvider{
     }
 
     @Override
-    public boolean getSysinfoList() {
-        return false;
-    }
-
-    @Override
-    public List<Sysinfo> getSysinfo(String par) {
+    public List<Ztwm004> getPurchasedItemInfo(String string) {
         return null;
     }
+
 }

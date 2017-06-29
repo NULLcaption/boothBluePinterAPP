@@ -17,18 +17,66 @@
         android:layout_below="@+id/tableRow3">
 
         <!--交互正文-->
-        <EditText
-            android:id="@+id/textViewInfo"
+        <TableRow
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/text1" />
+            android:layout_marginTop="5dp"
+            android:id="@+id/textViewInfo">
 
-        <EditText
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:digits="@+id/text"
+                android:text="@string/znum_name"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/znum"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.70"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="16sp">
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
             android:id="@+id/text2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textViewInfo"
-            android:hint="@string/name1" />
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/textViewInfo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:digits="@+id/text"
+                android:text="@string/name"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/EName2"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.70"
+                android:inputType="text"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp">
+                <requestFocus />
+            </TextView>
+        </TableRow>
 
         <TableRow
             android:id="@+id/tableRow2"

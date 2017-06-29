@@ -3,39 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\baidumapapi_v3_2_0.jar"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\httpmime-4.2.5.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="46ca4c3c74e1ddc60b45c490485e5df05babe6a5">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_2_0_e3aa63241e3103c041c771990b035c5dc1072b1e.jar" />
+        sha1="6efc2f9df23c2ac4d3b701a11cab9f9fa6a641d4">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\httpmime-4.2.5_ccb5bc9f90f26d8159f58d3b506ee9f75faa4c25.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\core.jar"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\httpclient-4.2.5.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="a6b96ed8106d62093da890aace81dbd0df5be59e">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\core_0739d5f0ff5ab90c42296aed8a10f7cbeddf4911.jar" />
+        sha1="3bfeb9062b12d5b340445336790dbc14c59c2d79">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\httpclient-4.2.5_f8b7242d23c78e0c20fdf89e31a7008bfb20272c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\pinyin4j-2.5.0.jar"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="ae353005f973da1cd8545b54354504c2503f6865">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_a4b2feae3486d58d78e71bc2678c90d0f5ec33b6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\libammsdk.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\libammsdk_1dfc0ef5764e4d2c4fe11bfea9eb066d2a156695.jar" />
+        sha1="b457441023b25f0b6bae28c76be982a4e49a8666">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.6.2-jar-with-dependencies_09d94924dc8fc8f79f0b3fa47c14d7708dfe24bc.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,6 +39,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\ormlite-android-4.25.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a70f4ec5682f86542a1d595fe33a4d65948318e">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\ormlite-android-4.25_f652915a8a88a7392fab0085bdf1daef0bb6d599.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\httpclient-cache-4.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="313cfeb950089985994736aa08885711c56b7e1e">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\httpclient-cache-4.2.5_0e13c25a7e2bc3bd37456777c3fc71e0a50ab748.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\AndroidStudioProjects\BoothPinter\app\libs\locSDK_5.01.jar"
         jumboMode="false"
         optimize="true"
@@ -57,30 +66,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\gesture-imageview.jar"
+        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\httpcore-4.2.4.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="a57044c3c63ea49d46868251ff1bee50c2410c42">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\gesture-imageview_90ef2ce64275097daae16f257998b1d125ed0662.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\gson-2.2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\gson-2.2.4_d9cc35b0658cda373adfdb3dba7b93de63323691.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioProjects\BoothPinter\app\libs\ormlite-android-4.25.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a70f4ec5682f86542a1d595fe33a4d65948318e">
-        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\ormlite-android-4.25_f652915a8a88a7392fab0085bdf1daef0bb6d599.jar" />
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="D:\AndroidStudioProjects\BoothPinter\app\build\intermediates\pre-dexed\debug\httpcore-4.2.4_27cc9f7348a49e83ac59916f7d6ecf81bd017aaa.jar" />
     </item>
 
 </items>

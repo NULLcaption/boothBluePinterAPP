@@ -3,14 +3,13 @@ package com.example.cxg.boothpinter.provider;
 import android.content.Context;
 
 /**
+ * data provide factory
  * Created by Administrator on 2017/5/5.
  */
 
 public class DataProviderFactory {
 
-    public  static Context ctx;
-
-
+    public static Context ctx;
     public static Context getContext() {
         return ctx;
     }

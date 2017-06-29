@@ -11,7 +11,7 @@ import android.os.Handler;
 import android.util.Log;
 
 import com.example.cxg.boothpinter.R;
-import com.example.cxg.boothpinter.activity.SysinfoActivity;
+import com.example.cxg.boothpinter.activity.BlueBoothPinterActivity;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
@@ -116,7 +116,7 @@ public class UpdateTask extends AsyncTask<Object, Object, Integer>{
         Notification notification = new Notification(
                 R.drawable.notification_icon, str, System.currentTimeMillis());
         // // // 点通知返回原来activity
-        Intent notificationIntent = new Intent(ctx, SysinfoActivity.class); // 点击该通知后跳转的Activity
+        Intent notificationIntent = new Intent(ctx, BlueBoothPinterActivity.class); // 点击该通知后跳转的Activity
         notificationIntent.setAction(Intent.ACTION_MAIN);
         notificationIntent.addCategory(Intent.CATEGORY_LAUNCHER);
         notificationIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK| Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED|Intent.FLAG_ACTIVITY_CLEAR_TOP);

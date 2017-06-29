@@ -72,7 +72,7 @@ public class Sysinfo implements Serializable{
         this.meins = meins;
         this.erfmgl = erfmgl;
         this.erfme = erfme;
-        Zmenge = zmenge;
+        this.Zmenge = zmenge;
         this.name1 = name1;
         this.name1Id = name1Id;
     }

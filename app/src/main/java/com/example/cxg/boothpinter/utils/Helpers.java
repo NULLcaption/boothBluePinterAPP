@@ -190,17 +190,4 @@ public class Helpers {
 		// for debugging, get the activity name automatically
 		return a.getLocalClassName();
 	}
-/**����ʱ��ε��·�*/
-//	public static String get(int number) {
-//		Calendar curr = Calendar.getInstance();
-//		Calendar c_begin = Calendar.getInstance();
-//		Calendar c_end = curr;
-//		c_begin.set(2012, 5, 30);
-//		c_end.set(2012, 11, 5);
-//		Calendar curr = Calendar.getInstance();
-//		curr.set(Calendar.MONTH,curr.get(Calendar.DAY_OF_MONTH)-10);
-//		bp.setObj1(String.valueOf(curr.get(Calendar.YEAR)));
-//		bp.setObj2(String.valueOf(curr.get(Calendar.MONTH)));
-//	}
-	
 }

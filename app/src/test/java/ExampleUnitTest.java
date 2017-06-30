@@ -12,7 +12,7 @@ public class ExampleUnitTest {
 
     @Test
     public void testHttpPost() {
-        String properties = "9000042548";
+        String properties = "9000000048";
         List<Object> list = WebServiceUtils.callWebServiceFor005(WebServiceUtils.URL_005, WebServiceUtils.METHOD_NAME_005, properties);
         if (list.size() != 0) {
             System.out.println(list.get(0));

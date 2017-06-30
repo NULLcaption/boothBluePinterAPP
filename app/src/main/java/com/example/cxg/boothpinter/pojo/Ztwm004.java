@@ -5,6 +5,7 @@ import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * description: 采购物料组实体类
@@ -88,6 +89,8 @@ public class Ztwm004 implements Serializable {
     /*采购订单*/
     @DatabaseField
     private String ebeln;
+    //明细列表
+    private List<Zslips> zslipsList;
 
     public Ztwm004() {
         super();
@@ -127,6 +130,14 @@ public class Ztwm004 implements Serializable {
         this.znum = znum1;
         this.vbeln = vbeln;
         this.ebeln = ebeln;
+    }
+
+    public List<Zslips> getZslipsList() {
+        return zslipsList;
+    }
+
+    public void setZslipsList(List<Zslips> zslipsList) {
+        this.zslipsList = zslipsList;
     }
 
     public String getMandt() {

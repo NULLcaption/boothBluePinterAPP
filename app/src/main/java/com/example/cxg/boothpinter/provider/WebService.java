@@ -6,6 +6,8 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.util.Log;
 
+import com.example.cxg.boothpinter.pojo.Zslfa1;
+import com.example.cxg.boothpinter.pojo.Zslips;
 import com.example.cxg.boothpinter.pojo.Ztwm004;
 import com.example.cxg.boothpinter.utils.Helpers;
 import com.example.cxg.boothpinter.utils.WebServiceUtils;
@@ -67,9 +69,11 @@ public class WebService implements IDataProvider{
         List<Ztwm004> ztwm004List = new ArrayList<>();
         try {
             List<Object> list = WebServiceUtils.callWebServiceFor005(WebServiceUtils.URL_005, WebServiceUtils.METHOD_NAME_005, properties);
-            if (list.size() != 0) {
-                System.out.println(list.get(0));
-                System.out.println(list.get(1));
+            if (list.size()!= 0) {
+                Zslfa1 zlfa1 = (Zslfa1) list.get(0);
+
+                Zslips zslips = (Zslips) list.get(1);
+
             }
         } catch (Exception e) {
             e.printStackTrace();

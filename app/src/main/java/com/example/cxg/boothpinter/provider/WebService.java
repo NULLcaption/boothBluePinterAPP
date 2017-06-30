@@ -8,7 +8,9 @@ import android.util.Log;
 
 import com.example.cxg.boothpinter.pojo.Ztwm004;
 import com.example.cxg.boothpinter.utils.Helpers;
+import com.example.cxg.boothpinter.utils.WebServiceUtils;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -61,8 +63,18 @@ public class WebService implements IDataProvider{
     }
 
     @Override
-    public List<Ztwm004> getPurchasedItemInfo(String string) {
-        return null;
+    public List<Ztwm004> getPurchasedItemInfo(String properties) {
+        List<Ztwm004> ztwm004List = new ArrayList<>();
+        try {
+            List<Object> list = WebServiceUtils.callWebServiceFor005(WebServiceUtils.URL_005, WebServiceUtils.METHOD_NAME_005, properties);
+            if (list.size() != 0) {
+                System.out.println(list.get(0));
+                System.out.println(list.get(1));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return ztwm004List;
     }
 
 }

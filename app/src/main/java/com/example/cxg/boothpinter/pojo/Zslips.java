@@ -58,10 +58,20 @@ public class Zslips implements Serializable, KvmSerializable {
     private String Zipcode;
     @DatabaseField
     private String Qcnum;
+    @DatabaseField
+    private String Charg;
 
 
     public Zslips() {
         super();
+    }
+
+    public String getCharg() {
+        return Charg;
+    }
+
+    public void setCharg(String charg) {
+        Charg = charg;
     }
 
     public String getQcnum() {

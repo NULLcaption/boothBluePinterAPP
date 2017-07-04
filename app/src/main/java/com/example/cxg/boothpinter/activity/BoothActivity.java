@@ -15,6 +15,7 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.example.cxg.boothpinter.R;
+import com.example.cxg.boothpinter.application.XPPApplication;
 import com.example.cxg.boothpinter.utils.Bluetooth;
 import com.example.cxg.boothpinter.utils.MessageBox;
 import com.example.cxg.boothpinter.utils.StatusBox;
@@ -85,9 +86,7 @@ public class BoothActivity extends AppCompatActivity {
        Button Button3 = (Button) findViewById(R.id.button3);
         Button3.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View arg0) {
-                //Print3(SelectedBDAddress);
-                String systemMags="printer3";
-                showMessage(systemMags);
+                XPPApplication.exit(BoothActivity.this);
             }
         });
     }

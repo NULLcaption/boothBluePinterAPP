@@ -105,8 +105,18 @@ public class WebServiceUtils {
      */
     public static List<Object> parseSoapObject006(SoapObject result) {
         List<Object> list = new ArrayList<>();
-        String ItZipcode = result.getProperty("ItZipcode").toString();
-        list.add(ItZipcode);
+
+        SoapObject provinceSoapObject1 = (SoapObject) result.getProperty("ItZipcode");
+        if (provinceSoapObject1 == null) {
+            return null;
+        }
+        for (int i = 0; i < provinceSoapObject1.getPropertyCount(); i++) {
+            SoapObject soapObject = (SoapObject) provinceSoapObject1.getProperty(i);
+            String Zipcode = soapObject.getProperty("Zipcode").toString();
+            String Charg = soapObject.getProperty("Charg").toString();
+            list.add(Zipcode);
+            list.add(Charg);
+        }
         return list;
     }
 

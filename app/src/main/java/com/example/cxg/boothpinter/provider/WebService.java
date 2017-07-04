@@ -128,7 +128,10 @@ public class WebService implements IDataProvider{
             List<Object> list = WebServiceUtils.callWebServiceFor006(WebServiceUtils.URL_006, WebServiceUtils.METHOD_NAME_006, properties);
             if (list.size()!=0) {
                 Zslips zslips_002 = new Zslips();
+
                 zslips_002.setZipcode(list.get(0).toString());
+                zslips_002.setCharg(list.get(1).toString());
+
                 zslipsList.add(zslips_002);
             }
             return zslipsList;

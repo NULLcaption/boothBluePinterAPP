@@ -22,6 +22,41 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/IZipcode"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1.70"
+                        android:inputType="text"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:visibility="gone">
+
+                        <requestFocus />
+                    </TextView>
+                    <TextView
+                        android:id="@+id/Charg"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1.70"
+                        android:inputType="text"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:visibility="gone">
+
+                        <requestFocus />
+                    </TextView>
+                </TableRow>
+
                 <TableLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">

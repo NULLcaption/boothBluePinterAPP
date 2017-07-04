@@ -11,69 +11,12 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="System.out" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da901dd8-6692-4703-8830-fd4eee2530f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-08-48-29-710.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-08-48-46-965.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-08-49-45-281.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-08-50-40-399.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-08-56-53-633.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-08-57-25-207.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-08-57-36-205.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-08-57-47-485.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-09-14-32-637.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-09-19-00-751.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-09-19-54-206.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-09-45-58-111.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-09-52-11-944.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-09-53-49-656.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-09-59-09-194.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-02-59-712.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-06-13-808.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-15-58-267.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-18-08-827.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-21-04-359.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-30-30-738.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-37-11-709.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-43-11-264.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-46-12-649.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-54-56-475.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-10-56-42-384.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-11-07-47-582.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-11-27-59-643.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-11-32-51-130.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-16-18-20-385.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-16-29-28-649.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-16-31-41-545.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-16-32-09-880.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-16-32-41-835.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-16-50-54-643.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-16-51-22-839.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-16-57-21-609.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-03-17-01-25-670.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-08-44-25-782.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-08-44-36-098.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-10-07-09-855.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-10-10-21-895.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-10-29-29-063.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-10-40-26-036.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-10-42-05-138.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-10-48-26-970.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-10-55-00-775.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-10-57-35-080.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-11-10-37-160.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-11-24-24-731.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-13-14-39-070.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-13-19-03-275.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-14-13-50-000.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-04-14-31-04-189.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/DatePicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/DatePickerView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/date_picker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -82,18 +25,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/adapter/BlueBoothPinterAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/adapter/BlueBoothPinterAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/Zslips.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/Zslips.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/Ztwm004.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/Ztwm004.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/IDataProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/IDataProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/WebService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/WebService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/WebServiceUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/WebServiceUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/sysinfo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sysinfo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/ExampleUnitTest.java" />
     </list>
@@ -130,40 +68,21 @@
       <file leaf-file-name="BlueBoothPinterDetailActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="229" column="59" selection-start-line="229" selection-start-column="59" selection-end-line="229" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDataProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/IDataProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/WebService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+            <state relative-caret-position="152">
+              <caret line="258" column="0" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#6071#12345#0" expanded="true" />
+                <element signature="e#12344#12345#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebServiceUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/WebServiceUtils.java">
+      <file leaf-file-name="BoothActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+            <state relative-caret-position="190">
+              <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -2051,11 +1970,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/application/XPPApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_booth.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/SysinfoDetailActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="D:/sdk/adt-bundle-windows-x86_64_with_Android_5.0/sdk/sources/android-25/android/app/Activity.java" />
         <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/UpdateTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/query/OrmHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/SysinfoBean.java" />
@@ -2080,19 +1997,21 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/Ztwm004.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/sysinfo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo.xml" />
-        <option value="$PROJECT_DIR$/app/src/test/java/ExampleUnitTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/adapter/BlueBoothPinterAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/DatePicker.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/DatePickerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/date_picker.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo_detail.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/Zslips.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/IDataProvider.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/Zslips.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/WebServiceUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/ExampleUnitTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/WebService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java" />
       </list>
     </option>
   </component>
@@ -2399,70 +2318,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BoothPinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BoothPinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boothpinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BoothPinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BoothPinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2535,7 +2390,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pojo" />
+              <option name="myItemId" value="adapter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2677,6 +2532,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExampleUnitTest" />
       <option name="METHOD_NAME" value="init2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExampleUnitTest.inti3" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExampleUnitTest" />
+      <option name="METHOD_NAME" value="inti3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -2976,19 +2852,21 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
       <item index="1" class="java.lang.String" itemvalue="JAR Application.pinyin4j-2.5.0.jar" />
       <item index="2" class="java.lang.String" itemvalue="Application.HttpUtil" />
       <item index="3" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest.testHttpPost" />
       <item index="4" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest.init2" />
+      <item index="5" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest.inti3" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest.testHttpPost" />
-        <item index="1" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest.init2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HttpUtil" />
-        <item index="3" class="java.lang.String" itemvalue="JAR Application.pinyin4j-2.5.0.jar" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest.inti3" />
+        <item index="1" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest.testHttpPost" />
+        <item index="2" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest.init2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HttpUtil" />
+        <item index="4" class="java.lang.String" itemvalue="JAR Application.pinyin4j-2.5.0.jar" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -3027,39 +2905,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleUnitTest_init2 - 2017.07.03 at 09h 46m 13s.xml">
-      <configuration name="ExampleUnitTest.init2" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 15h 41m 16s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 09h 14m 41s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 15h 41m 25s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 09h 19m 04s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 15h 41m 40s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 09h 19m 59s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 16h 19m 07s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 09h 52m 17s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 16h 26m 27s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 16h 29m 44s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 16h 28m 29s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 16h 31m 46s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 16h 30m 47s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 16h 32m 13s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 16h 31m 31s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 16h 32m 46s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 16h 32m 52s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testHttpPost - 2017.07.03 at 16h 51m 05s.xml">
-      <configuration name="ExampleUnitTest.testHttpPost" configurationId="AndroidJUnit" />
+    <history-entry file="ExampleUnitTest_inti3 - 2017.07.04 at 16h 33m 20s.xml">
+      <configuration name="ExampleUnitTest.inti3" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3067,21 +2945,21 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31088826" sideWeight="0.51965064" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35762483" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29959515" sideWeight="0.74856734" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3508772" sideWeight="0.27292264" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3508772" sideWeight="0.72707736" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26862463" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35762483" sideWeight="0.49713466" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2240216" sideWeight="0.73567337" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35762483" sideWeight="0.49713466" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25910932" sideWeight="0.7141834" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635984" sideWeight="0.49713466" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26289397" sideWeight="0.48034933" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17765044" sideWeight="0.48034933" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17836677" sideWeight="0.4585153" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2672065" sideWeight="0.8051576" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.7750716" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20630373" sideWeight="0.512035" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3127,9 +3005,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="38" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/WebServiceUtils.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="app">
+        <watch expression="IZipcode.getText().toString()" />
+      </configuration>
       <configuration name="AndroidJUnit">
         <watch expression="envelope" />
       </configuration>
@@ -3159,16 +3048,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png">
       <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -3314,6 +3193,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="2213" column="0" selection-start-line="2213" selection-start-column="0" selection-end-line="2213" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3340,14 +3220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="436" column="6" selection-start-line="436" selection-start-column="6" selection-end-line="436" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/ExampleUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="40" column="32" selection-start-line="39" selection-start-column="8" selection-end-line="40" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -3402,14 +3274,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3476,18 +3340,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/ExampleUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        <state relative-caret-position="309">
+          <caret line="64" column="78" selection-start-line="61" selection-start-column="12" selection-end-line="64" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo_detail.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="393" column="61" selection-start-line="393" selection-start-column="61" selection-end-line="393" selection-end-column="61" />
+        <state relative-caret-position="196">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -3497,56 +3361,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/pojo/Zslips.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1696#1697#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1839#1840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/IDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="249">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/WebServiceUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+        <state relative-caret-position="164">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/IDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/WebService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="229" column="59" selection-start-line="229" selection-start-column="59" selection-end-line="229" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="152">
+          <caret line="258" column="0" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+          <folding>
+            <element signature="e#6071#12345#0" expanded="true" />
+            <element signature="e#12344#12345#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

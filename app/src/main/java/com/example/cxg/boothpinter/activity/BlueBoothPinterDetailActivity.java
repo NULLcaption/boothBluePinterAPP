@@ -44,7 +44,7 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
     private TextView lgmng;
     private TextView Zmenge;
     private EditText Zgrdate, Zproddate;
-    private TextView erfmgl;
+    private TextView erfmgl,IZipcode,Charg;
     private EditText mark, Qcnum;
     private Button printer, backHome, exit;
     private Zslips zslips;
@@ -83,6 +83,8 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
         erfmgl = (TextView) findViewById(R.id.erfmgl);//托盘标准数量
         mark = (EditText) findViewById(R.id.mark);//标签数
         Qcnum = (EditText) findViewById(R.id.Qcnum);//车牌号
+        IZipcode = (TextView) findViewById(R.id.IZipcode);
+        Charg = (TextView) findViewById(R.id.Charg);
 
         findViewById(R.id.printer).setOnClickListener(BtnClicked);
         findViewById(R.id.back_home).setOnClickListener(BtnClicked);
@@ -108,6 +110,7 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
             zlichn.setText(zslips.getZlichn());
             lgmng.setText(zslips.getLgmng());
             Zmenge.setText(zslips.getZmenge());
+            //IZipcode.setText(zslips.getZipcode());
             //默认时间设置
             SimpleDateFormat dateString = new SimpleDateFormat("yyyy-MM-dd");
             Date dateNow = new Date();
@@ -184,14 +187,14 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
                     if (!"".equals(erfmgl.getText().toString().trim())
                             || "0.0".equals(erfmgl.getText().toString().trim())) {
                         // 正则判断下是否输入值为数字
-                        Pattern p2 = Pattern.compile("\\d");
+                        Pattern p2 = Pattern.compile("^[0-9]*[1-9][0-9]*$");
                         String erfmgl1 = erfmgl.getText().toString().trim();
                         Matcher matcher = p2.matcher(erfmgl1);
-                        if (matcher.matches()) {
+                        if (!matcher.matches()) {
                             Toast.makeText(getApplicationContext(), "标准托盘数量数必须填，且必须为数字...", Toast.LENGTH_SHORT).show();
                             break;
                         }
-                        zslips_001.setErfmg(erfmgl.getText().toString().trim());
+                        zslips_001.setLgmng(erfmgl.getText().toString().trim());
                     } else {
                         Toast.makeText(getApplicationContext(), "请输入标准托盘数量!", Toast.LENGTH_SHORT).show();
                         break;
@@ -199,14 +202,14 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
                     if (!"".equals(mark.getText().toString().trim())
                             || !"0".equals(mark.getText().toString().trim())) {
                         // 正则判断下是否输入值为数字
-                        Pattern p2 = Pattern.compile("\\d");
+                        Pattern p2 = Pattern.compile("^[0-9]*[1-9][0-9]*$");
                         String mark1 = mark.getText().toString().trim();
-                        Matcher matcher = p2.matcher(mark1);
-                        if (matcher.matches()) {
+                        Matcher matcher1 = p2.matcher(mark1);
+                        if (!matcher1.matches()) {
                             Toast.makeText(getApplicationContext(), "标签数量数必须填，且必须为为数字...", Toast.LENGTH_SHORT).show();
                             break;
                         }
-                        zslips_001.setMeins(mark.getText().toString().trim());
+                        zslips_001.setMenge(mark.getText().toString().trim());
                     } else {
                         Toast.makeText(getApplicationContext(), "请输入标签数量!", Toast.LENGTH_SHORT).show();
                         break;
@@ -226,15 +229,40 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
                     } else if (factory.equals("天津工厂")) {
                         zslips_001.setWerks("3000");
                     }
-                    //单位
-                    zslips_001.setMeins(zslips.getMeins());
+                    //单位{BAO=包, GUO=锅, TAO=套, BEI=杯, BOX=箱, KG=公斤, DAI=袋, HE=盒, GE=个}
+                    if ("个".equals(zslips.getMeins())) {
+                        zslips_001.setMeins("GE");
+                    } else if ("盒".equals(zslips.getMeins())){
+                        zslips_001.setMeins("HE");
+                    } else if ("袋".equals(zslips.getMeins())){
+                        zslips_001.setMeins("DAI");
+                    } else if ("公斤".equals(zslips.getMeins())){
+                        zslips_001.setMeins("KG");
+                    } else if ("箱".equals(zslips.getMeins())){
+                        zslips_001.setMeins("BOX");
+                    } else if ("杯".equals(zslips.getMeins())){
+                        zslips_001.setMeins("BEI");
+                    } else if ("套".equals(zslips.getMeins())){
+                        zslips_001.setMeins("TAO");
+                    } else if ("锅".equals(zslips.getMeins())){
+                        zslips_001.setMeins("GUO");
+                    } else if ("包".equals(zslips.getMeins())){
+                        zslips_001.setMeins("BAO");
+                    }
+
                     //生成托盘编码
                     new getZipcodeTask().execute(zslips_001);
+                    System.out.println("IZipcode==========>"+IZipcode.getText().toString());
                     //打印
-                    Intent intent = new Intent(BlueBoothPinterDetailActivity.this, BoothActivity.class);
-                    startActivity(intent);
-                    overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
-                    System.out.println("printer!!");
+                    if (!"".equals(IZipcode.getText().toString())){
+                        Intent intent = new Intent(BlueBoothPinterDetailActivity.this, BoothActivity.class);
+
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
+                    } else {
+                        Toast.makeText(getApplicationContext(), "无返回编码,无发打印!", Toast.LENGTH_SHORT).show();
+                        break;
+                    }
                     break;
                 case R.id.back_home:
                     XPPApplication.exit(BlueBoothPinterDetailActivity.this);
@@ -282,7 +310,8 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
         protected void onPostExecute(List<Zslips> result) {
             dismissWaitingDialog();
             if (result.size() != 0) {
-                //IZipcode.setText(result.get(0).getZipcode());
+                IZipcode.setText(result.get(0).getZipcode());
+                Charg.setText(result.get(0).getZipcode());
             } else {
                 Toast.makeText(getApplicationContext(), "连接超时...退出稍后重试...", Toast.LENGTH_SHORT).show();
             }

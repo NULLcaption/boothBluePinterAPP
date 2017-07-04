@@ -16,11 +16,14 @@ import android.widget.Toast;
 import com.example.cxg.boothpinter.R;
 import com.example.cxg.boothpinter.adapter.BlueBoothPinterAdapter;
 import com.example.cxg.boothpinter.application.XPPApplication;
+import com.example.cxg.boothpinter.pojo.Zslips;
 import com.example.cxg.boothpinter.pojo.Ztwm004;
 import com.example.cxg.boothpinter.provider.DataProviderFactory;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -29,37 +32,31 @@ import java.util.regex.Pattern;
  * author: xg.chen
  * date: 2017/6/29 9:22
  * version: 1.0
-*/
+ */
 
 public class BlueBoothPinterActivity extends AppCompatActivity {
 
     /*详单列表*/
-    private List<Ztwm004> ztwm004List;
+    private List<Zslips> zslipsList_001;
     /*通过接口获取到的值*/
-    private List<Ztwm004> ztwm004List_001;
+    private List<Zslips> zslipsList;
     /*详单适配器*/
     private BlueBoothPinterAdapter blueBoothPinterAdapter;
     /*输入值:单据号码*/
     private EditText znum;
     /*输出值:供应商名称*/
-    private TextView EName2;
+    private TextView EName1;
     /*输出值:列表*/
-    private ListView ztwm004ListView;
+    private ListView zslipsListView;
     private Dialog waitingDialog;
+    private Map<String, String> map = new HashMap<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booth);
-
         //初始化视图
         initView();
-
-        //加载列表
-        ztwm004List = new ArrayList<>();
-        ztwm004ListView = (ListView)findViewById(R.id.lv_sysinfo);
-        ztwm004ListView.setAdapter(new BlueBoothPinterAdapter(this.ztwm004List,this));
-
         //加载数据
         initData();
     }
@@ -69,9 +66,11 @@ public class BlueBoothPinterActivity extends AppCompatActivity {
      * author: xg.chen
      * date: 2017/6/29 9:41
      * version: 1.0
-    */
-    private void initView (){
-        EName2 = (TextView) findViewById(R.id.EName2);
+     */
+    private void initView() {
+        znum = (EditText) findViewById(R.id.znum);//单据号
+        EName1 = (TextView) findViewById(R.id.EName1);//供应商名称
+        zslipsListView = (ListView) findViewById(R.id.lv_sysinfo);//详单列表
 
         findViewById(R.id.button_ok).setOnClickListener(BtnClicked);//确定按钮
         findViewById(R.id.button_no).setOnClickListener(BtnClicked);//退出按钮
@@ -82,25 +81,41 @@ public class BlueBoothPinterActivity extends AppCompatActivity {
      * author: xg.chen
      * date: 2017/6/29 9:41
      * version: 1.0
-    */
+     */
     private void initData() {
-        if (ztwm004List_001.size() != 0) {
-            for (Ztwm004 ztwm004 : ztwm004List_001) {
-                EName2.setText(ztwm004.getEName1());//供应商名称
+        if (zslipsList == null) {
+            zslipsList_001 = new ArrayList<>();
+        } else if (zslipsList.size() != 0) {
+            blueBoothPinterAdapter = new BlueBoothPinterAdapter(zslipsList, this);
+            zslipsListView.setAdapter(blueBoothPinterAdapter);
+        }
+        //加载数据获取单位
+        new getMeinsTask().execute();
+    }
 
-                Ztwm004 ztwm004_001 = new Ztwm004();
-                ztwm004_001.setMatnr(ztwm004.getMatnr());
-                ztwm004_001.setEMaktx(ztwm004.getEMaktx());
-                ztwm004_001.setWerks(ztwm004.getWerks());
-                ztwm004_001.setZnum(ztwm004.getZnum());
-                ztwm004_001.setZlichn(ztwm004.getZlichn());
-                ztwm004_001.setLgmng(ztwm004.getLgmng());
-                ztwm004_001.setZmenge(ztwm004.getZmenge());
-                ztwm004_001.setMeins(ztwm004.getMeins());
-                ztwm004_001.setLgmng(ztwm004.getLgmng());
-                ztwm004_001.setErfme(ztwm004.getErfme());
+    /**
+     * 进入时加载单位
+     */
+    private class getMeinsTask extends AsyncTask<String, Integer, Map<String, String>> {
 
-                ztwm004List.add(ztwm004_001);
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            showWaitingDialog();
+        }
+
+        @Override
+        protected Map<String, String> doInBackground(String... params) {
+            return DataProviderFactory.getProvider().getMeins();
+        }
+
+        @Override
+        protected void onPostExecute(Map<String, String> result) {
+            dismissWaitingDialog();
+            if (result.size() != 0) {
+                map = result;
+            } else {
+                Toast.makeText(getApplicationContext(), "连接超时...退出稍后重试...", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -116,8 +131,8 @@ public class BlueBoothPinterActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             switch (v.getId()) {
-                case R.id.button_ok :
-                    if (!"".equals(znum.getText().toString().trim())){
+                case R.id.button_ok:
+                    if (!"".equals(znum.getText().toString().trim())) {
                         Pattern p2 = Pattern.compile("\\d");
                         String znum_001 = znum.getText().toString().trim();
                         Matcher matcher = p2.matcher(znum_001);
@@ -134,7 +149,7 @@ public class BlueBoothPinterActivity extends AppCompatActivity {
                     new getPurchasedItemInfo().execute(znum.getText().toString().trim());
 
                     break;
-                case R.id.button_no :
+                case R.id.button_no:
                     XPPApplication.exit(BlueBoothPinterActivity.this);
                     Toast.makeText(getApplicationContext(), "退出应用", Toast.LENGTH_SHORT).show();
                     break;
@@ -149,8 +164,8 @@ public class BlueBoothPinterActivity extends AppCompatActivity {
      * author: xg.chen
      * date: 2017/6/29 15:34
      * version: 1.0
-    */
-    private class getPurchasedItemInfo extends AsyncTask<String,Integer,List<Ztwm004>> {
+     */
+    private class getPurchasedItemInfo extends AsyncTask<String, Integer, List<Ztwm004>> {
 
         @Override
         protected void onPreExecute() {
@@ -168,7 +183,9 @@ public class BlueBoothPinterActivity extends AppCompatActivity {
         protected void onPostExecute(List<Ztwm004> result) {
             dismissWaitingDialog();
             if (result.size() != 0) {
-                //map = result;
+                EName1.setText(result.get(0).getEName1());
+                zslipsList = result.get(0).getZslipsList();
+                initData();
             } else {
                 Toast.makeText(getApplicationContext(), "连接超时...退出稍后重试...", Toast.LENGTH_SHORT).show();
             }

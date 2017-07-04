@@ -72,14 +72,43 @@
                             android:textSize="16sp" />
 
                         <TextView
-                            android:id="@+id/name1"
+                            android:id="@+id/Lifnr"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="5dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="5dp"
+                            android:layout_marginRight="10dp"
                             android:layout_weight="1.70"
                             android:inputType="text"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="16sp">
+
+                            <requestFocus />
+                        </TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
                             android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/name1"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1.70"
+                            android:inputType="text"
+                            android:textColor="@android:color/holo_blue_dark"
                             android:textSize="16sp">
 
                             <requestFocus />
@@ -109,7 +138,7 @@
                             android:layout_marginTop="5dp"
                             android:layout_weight="1.70"
                             android:inputType="text"
-                            android:textColor="@android:color/black"
+                            android:textColor="@android:color/holo_blue_dark"
                             android:textSize="16sp">
 
                             <requestFocus />
@@ -140,6 +169,34 @@
                             android:layout_weight="1.70"
                             android:inputType="text"
                             android:textColor="@android:color/black"
+                            android:textSize="16sp">
+
+                            <requestFocus />
+                        </TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/Maktx"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1.70"
+                            android:inputType="text"
+                            android:textColor="@android:color/holo_blue_dark"
                             android:textSize="16sp">
 
                             <requestFocus />
@@ -204,6 +261,15 @@
 
                             <requestFocus />
                         </TextView>
+                        <TextView
+                            android:id="@+id/btnpost1"
+                            android:layout_width="33dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="20dp"
+                            android:text="个"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:layout_marginTop="5dp" />
                     </TableRow>
 
                     <TableRow
@@ -234,6 +300,16 @@
 
                             <requestFocus />
                         </TextView>
+
+                        <TextView
+                            android:id="@+id/btnpost"
+                            android:layout_width="33dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="20dp"
+                            android:text="个"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:layout_marginTop="5dp" />
                     </TableRow>
 
                     <TableRow
@@ -252,17 +328,48 @@
                             android:textSize="16sp" />
 
                         <EditText
-                            android:id="@+id/date"
+                            android:id="@+id/Zgrdate"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="5dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="5dp"
                             android:layout_weight="1.70"
+                            android:focusable="false"
                             android:inputType="text"
                             android:textColor="@android:color/black"
                             android:textSize="16sp">
 
                             <requestFocus />
+                        </EditText>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:digits="@+id/text"
+                            android:text="@string/Zproddate"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp"/>
+
+                        <EditText
+                            android:id="@+id/Zproddate"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1.70"
+                            android:focusable="false"
+                            android:inputType="text"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp">
+
+                            <requestFocus/>
                         </EditText>
                     </TableRow>
 
@@ -281,7 +388,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
-                        <TextView
+                        <EditText
                             android:id="@+id/erfmgl"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="5dp"
@@ -293,7 +400,7 @@
                             android:textSize="16sp">
 
                             <requestFocus />
-                        </TextView>
+                        </EditText>
                     </TableRow>
 
                     <TableRow
@@ -325,6 +432,37 @@
                             <requestFocus />
                         </EditText>
                     </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:digits="@+id/text"
+                            android:text="@string/Qcnum"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/Qcnum"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1.70"
+                            android:inputType="text"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp">
+
+                            <requestFocus />
+                        </EditText>
+                    </TableRow>
+
                 </TableLayout>
             </LinearLayout>
 

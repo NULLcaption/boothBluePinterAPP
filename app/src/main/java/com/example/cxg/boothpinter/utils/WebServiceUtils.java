@@ -30,21 +30,92 @@ public class WebServiceUtils {
     //请求方法名
     public static String METHOD_NAME_004 = "ZwmRfcIts004";//获取单位
     public static String METHOD_NAME_005 = "ZwmRfcIts005";//根据单据号码获取相关信息
+    public static String METHOD_NAME_006 = "ZwmRfcIts006";//生成托盘编码
 
     //请求路径
     public static String SOAP_ACTION_004 = NAMESPACE + "/" + METHOD_NAME_004;
     public static String SOAP_ACTION_005 = NAMESPACE + "/" + METHOD_NAME_005;
+    public static String SOAP_ACTION_006 = NAMESPACE + "/" + METHOD_NAME_006;
 
     //请求的webservice路径
     public static final String URL_004 = "http://192.168.0.16:8000/sap/bc/srt/rfc/sap/zwmits4/600/zwmits4/binding?sap-client=600&sap-user=abaprfc&sap-password=xpp2@12";
     public static final String URL_005 = "http://192.168.0.16:8000/sap/bc/srt/rfc/sap/zwmits5/600/zwmits5/binding?sap-client=600&sap-user=abaprfc&sap-password=xpp2@12";
+    public static final String URL_006 = "http://192.168.0.16:8000/sap/bc/srt/rfc/sap/zwmits6/600/zwmits6/binding?sap-client=600&sap-user=abaprfc&sap-password=xpp2@12";
+
+    /**
+     * 生成托盘编码
+     * @param url        请求URL
+     * @param methodName 请求的参数名
+     * @param properties 请求参数
+     * @return list
+     */
+    public static List<Object> callWebServiceFor006(String url, String methodName, Zslips properties) {
+        List<Object> resultList = new ArrayList<>();
+
+        // set up
+        SoapObject request = new SoapObject(NAMESPACE, methodName);
+        // SoapObject添加参数
+        request.addProperty("ILgmng",properties.getLgmng());
+        request.addProperty("ILifnr",properties.getLifnr());
+        request.addProperty("IMatnr",properties.getMatnr());
+        request.addProperty("IMeins",properties.getMeins());
+        request.addProperty("IMenge",properties.getMenge());
+        request.addProperty("IWerks",properties.getWerks());
+        request.addProperty("IZgrdate",properties.getZgrdate());
+        request.addProperty("IZlichn",properties.getZlichn());
+        request.addProperty("IZnum",properties.getZnum());
+        request.addProperty("IZproddate",properties.getZproddate());
+        request.addProperty("IZqcnum",properties.getQcnum());
+        request.addProperty("ItZipcode",properties.getZipcode());
+
+        SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER10);
+        envelope.dotNet = false;
+        envelope.setOutputSoapObject(request);
+
+        HttpTransportSE httpTransport = new HttpTransportSE(url);
+        httpTransport.debug = true;
+        try {
+            httpTransport.call(SOAP_ACTION_006, envelope);
+            if (envelope.bodyIn instanceof SoapObject) {
+                SoapObject soapObject = (SoapObject) envelope.bodyIn;
+                //解析后的返回list
+                resultList = parseSoapObject006(soapObject);
+                return resultList;
+            } else if (envelope.bodyIn instanceof SoapFault) {
+                SoapFault soapFault = (SoapFault) envelope.bodyIn;
+                try {
+                    throw new Exception(soapFault.getMessage());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        } catch (SocketException ex) {
+            ex.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return resultList;
+    }
+
+    /**
+     * Soap Object解析返回值
+     * @param result 返回值
+     * @return List
+     */
+    public static List<Object> parseSoapObject006(SoapObject result) {
+        List<Object> list = new ArrayList<>();
+        String ItZipcode = result.getProperty("ItZipcode").toString();
+        list.add(ItZipcode);
+        return list;
+    }
 
     /**
      * 根据单据号码获取相关信息
      *
      * @param url        请求URL
      * @param methodName 请求的参数名
-     * @param properties        请求参数
+     * @param properties 请求参数
      * @return list
      */
     public static List<Object> callWebServiceFor005(String url, String methodName, String properties) {
@@ -52,7 +123,7 @@ public class WebServiceUtils {
         // set up
         SoapObject request = new SoapObject(NAMESPACE, methodName);
         // SoapObject添加参数
-        request.addProperty("Zlfa1",new Zslfa1());
+        request.addProperty("Zlfa1", new Zslfa1());
         request.addProperty("Zlips", new Zslips());
         request.addProperty("Znum", properties);
 
@@ -87,6 +158,7 @@ public class WebServiceUtils {
 
     /**
      * Soap Object解析返回值
+     *
      * @param result 返回值
      * @return List
      */
@@ -94,14 +166,16 @@ public class WebServiceUtils {
         List<Object> list = new ArrayList<>();
 
         //供应商
+        String Name1 = "";
+        String Lifnr = "";
         SoapObject provinceSoapObject1 = (SoapObject) result.getProperty("Zlfa1");
         if (provinceSoapObject1 == null) {
             return null;
         }
         for (int i = 0; i < provinceSoapObject1.getPropertyCount(); i++) {
             SoapObject soapObject = (SoapObject) provinceSoapObject1.getProperty(i);
-            String Lifnr = soapObject.getProperty("Lifnr").toString();
-            String Name1 = soapObject.getProperty("Name1").toString();
+            Lifnr = soapObject.getProperty("Lifnr").toString();
+            Name1 = soapObject.getProperty("Name1").toString();
 
             Zslfa1 zslfa1 = new Zslfa1();
             zslfa1.setLifnr(Lifnr);
@@ -114,6 +188,8 @@ public class WebServiceUtils {
         if (provinceSoapObject2 == null) {
             return null;
         }
+        Map<String, String> map = callWebServiceFor004(WebServiceUtils.URL_004, WebServiceUtils.METHOD_NAME_004);
+        System.out.println("map=======>" + map);
         for (int i = 0; i < provinceSoapObject2.getPropertyCount(); i++) {
             SoapObject soapObject = (SoapObject) provinceSoapObject2.getProperty(i);
 
@@ -131,29 +207,84 @@ public class WebServiceUtils {
             String Vbeln = soapObject.getProperty("Vbeln").toString();
 
             Zslips zslips = new Zslips();
-            zslips.setZnum(Znum);
-            if (Werks.equals("1000")) {
-                zslips.setWerks("湖州工厂");
-            } else if (Werks.equals("2000")){
-                zslips.setWerks("成都工厂");
-            } else if (Werks.equals("3000")) {
-                zslips.setWerks("天津工厂");
+            String anyType = "anyType{}";
+            if (!"".equals(Lifnr)) {
+                zslips.setLifnr(Lifnr);
+            } else {
+                zslips.setLifnr("");
             }
-            zslips.setEbeln(Ebeln);
-            String string_Matnr = Matnr.substring(10,18);
-            zslips.setMatnr(string_Matnr);
-            zslips.setMaktx(Maktx);
-            zslips.setZlichn(Zlichn);
-            zslips.setLgmng(Lgmng);
-            zslips.setMeins(Meins);
-            zslips.setErfmg(Erfmg);
-            zslips.setErfme(Erfme);
-            zslips.setZmenge(Zmenge);
-            zslips.setVbeln(Vbeln);
+            if (!"".equals(Name1)) {
+                zslips.setEName1(Name1);
+            } else {
+                zslips.setEName1("");
+            }
+            if (!anyType.equals(Znum)) {
+                zslips.setZnum(Znum);
+                if (Werks.equals("1000")) {
+                    zslips.setWerks("湖州工厂");
+                } else if (Werks.equals("2000")) {
+                    zslips.setWerks("成都工厂");
+                } else if (Werks.equals("3000")) {
+                    zslips.setWerks("天津工厂");
+                }
+            } else {
+                zslips.setWerks("");
+            }
+            if (!anyType.equals(Ebeln)) {
+                zslips.setEbeln(Ebeln);
+            } else {
+                zslips.setEbeln("");
+            }
+            if (!anyType.equals(Matnr)) {
+                String string_Matnr = Matnr.substring(10, 18);
+                zslips.setMatnr(string_Matnr);
+            } else {
+                zslips.setMatnr("");
+            }
+            if (!anyType.equals(Maktx)) {
+                zslips.setMaktx(Maktx);
+            } else {
+                zslips.setMaktx("");
+            }
+            if (!anyType.equals(Zlichn)) {
+                zslips.setZlichn(Zlichn);
+            } else {
+                zslips.setZlichn("");
+            }
+            if (!anyType.equals(Lgmng)) {
+                zslips.setLgmng(Lgmng);
+            } else {
+                zslips.setLgmng("");
+            }
+            if (!anyType.equals(Meins)) {
+                String meins1 = map.get(Meins);
+                zslips.setMeins(meins1);
+            } else {
+                zslips.setMeins("");
+            }
+            if (!anyType.equals(Erfmg)) {
+                zslips.setErfmg(Erfmg);
+            } else {
+                zslips.setErfmg(Erfmg);
+            }
+            if (!anyType.equals(Erfme)) {
+                zslips.setErfme(Erfme);
+            } else {
+                zslips.setErfme("");
+            }
+            if (!anyType.equals(Zmenge)) {
+                zslips.setZmenge(Zmenge);
+            } else {
+                zslips.setZmenge("");
+            }
+            if (!anyType.equals(Vbeln)) {
+                zslips.setVbeln(Vbeln);
+            } else {
+                zslips.setVbeln("");
+            }
 
             list.add(zslips);
         }
-
         return list;
     }
 

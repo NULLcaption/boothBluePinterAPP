@@ -2,9 +2,11 @@ package com.example.cxg.boothpinter.provider;
 
 import android.app.Activity;
 
+import com.example.cxg.boothpinter.pojo.Zslips;
 import com.example.cxg.boothpinter.pojo.Ztwm004;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * service interface
@@ -27,4 +29,19 @@ public interface IDataProvider {
      */
 
     List<Ztwm004> getPurchasedItemInfo(String string);
+
+    /**
+     * 获取单位
+     *
+     * @return
+     */
+    Map<String, String> getMeins();
+
+    /**
+     * 生成托盘编码
+     *
+     * @param zslips_001
+     * @return
+     */
+    List<Zslips> getZipcode(Zslips zslips_001);
 }

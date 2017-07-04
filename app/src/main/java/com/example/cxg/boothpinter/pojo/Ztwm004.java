@@ -96,7 +96,7 @@ public class Ztwm004 implements Serializable {
         super();
     }
 
-    public Ztwm004(String mandt, String zipcode, String charg, String zcupno, String werks, String zkurno, String zbc, String zlinecode, String matnr, String zproddate, String zinstock, String zoutstock, String mblnr, String mjahr, String menge, String meins, String tanum, String zptflg, String zgrdate, String zlichn, String lifnr, String znum, String zqcnum, String EMaktx, String EName1, String EName2, String lgmng, String erfmgl, String erfme, String zmenge, String znum1, String vbeln, String ebeln) {
+    public Ztwm004(String mandt, String zipcode, String charg, String zcupno, String werks, String zkurno, String zbc, String zlinecode, String matnr, String zproddate, String zinstock, String zoutstock, String mblnr, String mjahr, String menge, String meins, String tanum, String zptflg, String zgrdate, String zlichn, String lifnr, String znum, String zqcnum, String EMaktx, String EName1, String EName2, String lgmng, String erfmgl, String erfme, String zmenge, String znum1, String vbeln, String ebeln, List<Zslips> zslipsList) {
         Mandt = mandt;
         Zipcode = zipcode;
         Charg = charg;
@@ -130,6 +130,7 @@ public class Ztwm004 implements Serializable {
         this.znum = znum1;
         this.vbeln = vbeln;
         this.ebeln = ebeln;
+        this.zslipsList = zslipsList;
     }
 
     public List<Zslips> getZslipsList() {
@@ -432,6 +433,7 @@ public class Ztwm004 implements Serializable {
                 ", znum='" + znum + '\'' +
                 ", vbeln='" + vbeln + '\'' +
                 ", ebeln='" + ebeln + '\'' +
+                ", zslipsList=" + zslipsList +
                 '}';
     }
 }

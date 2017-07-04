@@ -14,9 +14,9 @@ import java.util.Hashtable;
  * author: xg.chen
  * date: 2017/6/30 14:09
  * version: 1.0
-*/
+ */
 @DatabaseTable(tableName = "Zslips")
-public class Zslips implements Serializable,KvmSerializable {
+public class Zslips implements Serializable, KvmSerializable {
 
     @DatabaseField
     private String Znum;
@@ -42,24 +42,90 @@ public class Zslips implements Serializable,KvmSerializable {
     private String Erfme;
     @DatabaseField
     private String Zmenge;
+    @DatabaseField
+    private String Zgrdate;
+    @DatabaseField
+    private String Zproddate;
+    @DatabaseField
+    private String mark;
+    @DatabaseField
+    private String Lifnr;
+    @DatabaseField
+    private String EName1;
+    @DatabaseField
+    private String Menge;
+    @DatabaseField
+    private String Zipcode;
+    @DatabaseField
+    private String Qcnum;
+
 
     public Zslips() {
         super();
     }
 
-    public Zslips(String znum, String vbeln, String werks, String ebeln, String matnr, String maktx, String zlichn, String lgmng, String meins, String erfmg, String erfme, String zmenge) {
-        Znum = znum;
-        Vbeln = vbeln;
-        Werks = werks;
-        Ebeln = ebeln;
-        Matnr = matnr;
-        Maktx = maktx;
-        Zlichn = zlichn;
-        Lgmng = lgmng;
-        Meins = meins;
-        Erfmg = erfmg;
-        Erfme = erfme;
-        Zmenge = zmenge;
+    public String getQcnum() {
+        return Qcnum;
+    }
+
+    public void setQcnum(String qcnum) {
+        Qcnum = qcnum;
+    }
+
+    public String getMenge() {
+        return Menge;
+    }
+
+    public void setMenge(String menge) {
+        Menge = menge;
+    }
+
+    public String getZipcode() {
+        return Zipcode;
+    }
+
+    public void setZipcode(String zipcode) {
+        Zipcode = zipcode;
+    }
+
+    public String getLifnr() {
+        return Lifnr;
+    }
+
+    public void setLifnr(String lifnr) {
+        Lifnr = lifnr;
+    }
+
+    public String getEName1() {
+        return EName1;
+    }
+
+    public void setEName1(String EName1) {
+        this.EName1 = EName1;
+    }
+
+    public String getZgrdate() {
+        return Zgrdate;
+    }
+
+    public void setZgrdate(String zgrdate) {
+        Zgrdate = zgrdate;
+    }
+
+    public String getZproddate() {
+        return Zproddate;
+    }
+
+    public void setZproddate(String zproddate) {
+        Zproddate = zproddate;
+    }
+
+    public String getMark() {
+        return mark;
+    }
+
+    public void setMark(String mark) {
+        this.mark = mark;
     }
 
     public String getZnum() {
@@ -173,6 +239,13 @@ public class Zslips implements Serializable,KvmSerializable {
                 ", Erfmg='" + Erfmg + '\'' +
                 ", Erfme='" + Erfme + '\'' +
                 ", Zmenge='" + Zmenge + '\'' +
+                ", Zgrdate='" + Zgrdate + '\'' +
+                ", Zproddate='" + Zproddate + '\'' +
+                ", mark='" + mark + '\'' +
+                ", Lifnr='" + Lifnr + '\'' +
+                ", EName1='" + EName1 + '\'' +
+                ", Menge='" + Menge + '\'' +
+                ", Zipcode='" + Zipcode + '\'' +
                 '}';
     }
 

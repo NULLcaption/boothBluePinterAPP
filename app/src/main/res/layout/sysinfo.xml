@@ -65,7 +65,7 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/EName2"
+                android:id="@+id/EName1"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="20dp"

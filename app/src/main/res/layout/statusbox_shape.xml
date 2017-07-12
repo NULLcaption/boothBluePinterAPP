@@ -7,13 +7,13 @@
     <solid
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:color="#404040" />
+        android:color="@color/color6" />
 
     <stroke
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:width="1dp"
-        android:color="#BBBBBB" />
+        android:color="@color/color7" />
 
     <corners
         android:layout_height="match_parent"

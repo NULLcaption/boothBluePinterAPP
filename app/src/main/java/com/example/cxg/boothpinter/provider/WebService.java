@@ -69,7 +69,6 @@ public class WebService implements IDataProvider{
     @Override
     public List<Ztwm004> getPurchasedItemInfo(String properties) {
         List<Ztwm004> ztwm004List = new ArrayList<>();
-        //String properties1 = "9000000048";
         try {
             List<Object> list = WebServiceUtils.callWebServiceFor005(WebServiceUtils.URL_005, WebServiceUtils.METHOD_NAME_005, properties);
             Ztwm004 ztwm004 = new Ztwm004();

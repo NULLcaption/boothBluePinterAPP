@@ -199,7 +199,6 @@ public class WebServiceUtils {
             return null;
         }
         Map<String, String> map = callWebServiceFor004(WebServiceUtils.URL_004, WebServiceUtils.METHOD_NAME_004);
-        System.out.println("map=======>" + map);
         for (int i = 0; i < provinceSoapObject2.getPropertyCount(); i++) {
             SoapObject soapObject = (SoapObject) provinceSoapObject2.getProperty(i);
 

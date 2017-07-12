@@ -2,7 +2,7 @@
     <string name="app_name">采购入库打印</string>
 
     <string name="printer1">单张打印</string>
-    <string name="printer2">多张打印</string>
+    <string name="printer2">打印</string>
     <string name="printer3">返回</string>
     <string name="text1">单据:</string>
     <string name="name1">供应商:</string>
@@ -22,7 +22,7 @@
     <string name="mark_name">标签数量:</string>
     <string name="Qcnum">车牌号:</string>
 
-    <string name="printer">打印</string>
+    <string name="printer">进入打印</string>
     <string name="back_home">返回</string>
     <string name="exit">退出</string>
 

@@ -53,6 +53,12 @@ public class lable_sdk {
         Bluetooth.SPPWrite(CommandData, 4);
     }//ErrorConfig
 
+    /**
+     * 打印页面
+     * @param mark 0:直接停止；1：Lable;2:left mark;3:right mark;4:any；
+     * @param maxlengthmm maxlongthmm 最大走纸距离 （毫米）
+     * @param rotate 是否旋转页面90度   true 旋转90度；
+     */
     public static void PrintPage(int mark, int maxlengthmm, boolean rotate) {
         byte[] CommandData = new byte[8];
         CommandData[0] = 0x1c;
@@ -87,6 +93,14 @@ public class lable_sdk {
         Bluetooth.SPPWrite(CommandData, 13);
     }//drawline
 
+    /**
+     * 添加文字
+     * @param x 横轴
+     * @param y 数轴
+     * @param str1 文字
+     * @param font 字体
+     * @param fontsize 字体大小
+     */
     public static void DrawText(int x, int y, String str1, int font, int fontsize) {
         byte[] CommandData = new byte[512];
         CommandData[0] = 0x1C;
@@ -134,7 +148,15 @@ public class lable_sdk {
         Bluetooth.SPPWrite(CommandData, 1);
     }//drawtextbox
 
-
+    /**
+     * 打印条形码
+     * @param x
+     * @param y
+     * @param str
+     * @param codetype
+     * @param rotatewidth
+     * @param height
+     */
     public static void DrawCode1D(int x, int y, String str, int codetype, int rotatewidth, int height) {
         byte[] CommandData = new byte[256];
         CommandData[0] = 0x1C;

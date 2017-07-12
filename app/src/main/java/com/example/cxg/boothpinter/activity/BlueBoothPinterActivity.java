@@ -15,10 +15,10 @@ import android.widget.Toast;
 
 import com.example.cxg.boothpinter.R;
 import com.example.cxg.boothpinter.adapter.BlueBoothPinterAdapter;
-import com.example.cxg.boothpinter.application.XPPApplication;
 import com.example.cxg.boothpinter.pojo.Zslips;
 import com.example.cxg.boothpinter.pojo.Ztwm004;
 import com.example.cxg.boothpinter.provider.DataProviderFactory;
+import com.example.cxg.boothpinter.utils.ExitApplication;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -59,6 +59,8 @@ public class BlueBoothPinterActivity extends AppCompatActivity {
         initView();
         //加载数据
         initData();
+
+        ExitApplication.getInstance().addActivity(this);
     }
 
     /**
@@ -150,7 +152,7 @@ public class BlueBoothPinterActivity extends AppCompatActivity {
 
                     break;
                 case R.id.button_no:
-                    XPPApplication.exit(BlueBoothPinterActivity.this);
+                    ExitApplication.getInstance().exit();
                     Toast.makeText(getApplicationContext(), "退出应用", Toast.LENGTH_SHORT).show();
                     break;
                 default:

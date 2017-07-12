@@ -19,6 +19,7 @@ import com.example.cxg.boothpinter.application.XPPApplication;
 import com.example.cxg.boothpinter.pojo.Zslips;
 import com.example.cxg.boothpinter.provider.DataProviderFactory;
 import com.example.cxg.boothpinter.utils.DatePicker;
+import com.example.cxg.boothpinter.utils.ExitApplication;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -61,6 +62,7 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
         initData();
         //时间选择控件
         selectDatePicker();
+        ExitApplication.getInstance().addActivity(this);
     }
 
     /**
@@ -215,7 +217,9 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
                         break;
                     }
                     zslips_001.setLifnr(Lifnr.getText().toString());
+                    zslips_001.setEName1(name.getText().toString());
                     zslips_001.setMatnr(matnr.getText().toString());
+                    zslips_001.setMaktx(Maktx.getText().toString());
                     zslips_001.setZlichn(zlichn.getText().toString());
                     zslips_001.setZgrdate(Zgrdate.getText().toString());
                     zslips_001.setZproddate(Zproddate.getText().toString());
@@ -249,18 +253,29 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
                     } else if ("包".equals(zslips.getMeins())){
                         zslips_001.setMeins("BAO");
                     }
-
                     //生成托盘编码
-                    new getZipcodeTask().execute(zslips_001);
+                    try {
+                        new getZipcodeTask().execute(zslips_001);
+                        Thread.sleep(50);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     System.out.println("IZipcode==========>"+IZipcode.getText().toString());
                     //打印
                     if (!"".equals(IZipcode.getText().toString())){
+                        //新建一个显式意图，第一个参数为当前Activity类对象，第二个参数为你要打开的Activity类
                         Intent intent = new Intent(BlueBoothPinterDetailActivity.this, BoothActivity.class);
-
+                        //绑定数据赋值
+                        zslips_001.setZipcode(IZipcode.getText().toString());
+                        zslips_001.setCharg(Charg.getText().toString());
+                        //绑定数据
+                        intent.putExtra("zslips",zslips_001);
+                        //进入到下一个Activity
                         startActivity(intent);
+                        //过场动画
                         overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
                     } else {
-                        Toast.makeText(getApplicationContext(), "无返回编码,无发打印!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "无返回编码,请点击重试!", Toast.LENGTH_SHORT).show();
                         break;
                     }
                     break;
@@ -311,9 +326,9 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
             dismissWaitingDialog();
             if (result.size() != 0) {
                 IZipcode.setText(result.get(0).getZipcode());
-                Charg.setText(result.get(0).getZipcode());
+                Charg.setText(result.get(0).getCharg());
             } else {
-                Toast.makeText(getApplicationContext(), "连接超时...退出稍后重试...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "连接超时...稍后重试...", Toast.LENGTH_SHORT).show();
             }
         }
     }

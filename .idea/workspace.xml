@@ -17,33 +17,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da901dd8-6692-4703-8830-fd4eee2530f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/ExitApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpclient_4_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpclient_cache_4_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpcore_4_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpmime_4_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ksoap2_android_assembly_3_6_2_jar_with_dependencies.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/locSDK_5_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ormlite_android_4_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ormlite_core_4_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_3_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/WebService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/provider/WebService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/StatusBox.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/StatusBox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/WebServiceUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/WebServiceUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/lable_sdk.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/lable_sdk.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_booth.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_booth.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/statusbox.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/statusbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/statusbox_shape.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/statusbox_shape.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="BoothPinter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,7 +89,7 @@
       <file leaf-file-name="BoothActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-576">
+            <state relative-caret-position="756">
               <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
               <folding />
             </state>
@@ -87,14 +98,14 @@
       </file>
       <file leaf-file-name="layout_booth.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="486">
               <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -103,11 +114,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1242">
               <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#897#898#0" expanded="false" />
-                <element signature="e#920#921#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,7 +122,7 @@
       <file leaf-file-name="BlueBoothPinterActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3006">
+            <state relative-caret-position="2934">
               <caret line="192" column="13" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,7 +134,7 @@
       <file leaf-file-name="BlueBoothPinterDetailActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
+            <state relative-caret-position="2718">
               <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
               <folding />
             </state>
@@ -139,15 +146,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="846">
               <caret line="67" column="81" selection-start-line="67" selection-start-column="81" selection-end-line="67" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1268#1269#0" expanded="false" />
-                <element signature="e#1308#1309#0" expanded="false" />
-                <element signature="e#1365#1366#0" expanded="false" />
-                <element signature="e#1412#1413#0" expanded="false" />
-                <element signature="e#1469#1470#0" expanded="false" />
-                <element signature="e#1500#1501#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,141 +156,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2322">
               <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2157#2158#0" expanded="false" />
-                <element signature="e#2180#2181#0" expanded="false" />
-                <element signature="e#3748#3749#0" expanded="false" />
-                <element signature="e#3792#3793#0" expanded="false" />
-                <element signature="e#3824#3825#0" expanded="false" />
-                <element signature="e#3852#3853#0" expanded="false" />
-                <element signature="e#3894#3895#0" expanded="false" />
-                <element signature="e#3923#3924#0" expanded="false" />
-                <element signature="e#3957#3958#0" expanded="false" />
-                <element signature="e#3987#3988#0" expanded="false" />
-                <element signature="e#4033#4034#0" expanded="false" />
-                <element signature="e#4066#4067#0" expanded="false" />
-                <element signature="e#4098#4099#0" expanded="false" />
-                <element signature="e#4126#4127#0" expanded="false" />
-                <element signature="e#4168#4169#0" expanded="false" />
-                <element signature="e#4197#4198#0" expanded="false" />
-                <element signature="e#4230#4231#0" expanded="false" />
-                <element signature="e#4259#4260#0" expanded="false" />
-                <element signature="e#4303#4304#0" expanded="false" />
-                <element signature="e#4334#4335#0" expanded="false" />
-                <element signature="e#4366#4367#0" expanded="false" />
-                <element signature="e#4394#4395#0" expanded="false" />
-                <element signature="e#4436#4437#0" expanded="false" />
-                <element signature="e#4465#4466#0" expanded="false" />
-                <element signature="e#4498#4499#0" expanded="false" />
-                <element signature="e#4527#4528#0" expanded="false" />
-                <element signature="e#4571#4572#0" expanded="false" />
-                <element signature="e#4602#4603#0" expanded="false" />
-                <element signature="e#4632#4633#0" expanded="false" />
-                <element signature="e#4658#4659#0" expanded="false" />
-                <element signature="e#4696#4697#0" expanded="false" />
-                <element signature="e#4721#4722#0" expanded="false" />
-                <element signature="e#4757#4758#0" expanded="false" />
-                <element signature="e#4789#4790#0" expanded="false" />
-                <element signature="e#4839#4840#0" expanded="false" />
-                <element signature="e#4876#4877#0" expanded="false" />
-                <element signature="e#4908#4909#0" expanded="false" />
-                <element signature="e#4936#4937#0" expanded="false" />
-                <element signature="e#4978#4979#0" expanded="false" />
-                <element signature="e#5007#5008#0" expanded="false" />
-                <element signature="e#5043#5044#0" expanded="false" />
-                <element signature="e#5075#5076#0" expanded="false" />
-                <element signature="e#5125#5126#0" expanded="false" />
-                <element signature="e#5162#5163#0" expanded="false" />
-                <element signature="e#5197#5198#0" expanded="false" />
-                <element signature="e#5228#5229#0" expanded="false" />
-                <element signature="e#5276#5277#0" expanded="false" />
-                <element signature="e#5311#5312#0" expanded="false" />
-                <element signature="e#5347#5348#0" expanded="false" />
-                <element signature="e#5379#5380#0" expanded="false" />
-                <element signature="e#5429#5430#0" expanded="false" />
-                <element signature="e#5466#5467#0" expanded="false" />
-                <element signature="e#5498#5499#0" expanded="false" />
-                <element signature="e#5526#5527#0" expanded="false" />
-                <element signature="e#5568#5569#0" expanded="false" />
-                <element signature="e#5597#5598#0" expanded="false" />
-                <element signature="e#5629#5630#0" expanded="false" />
-                <element signature="e#5657#5658#0" expanded="false" />
-                <element signature="e#5699#5700#0" expanded="false" />
-                <element signature="e#5728#5729#0" expanded="false" />
-                <element signature="e#5760#5761#0" expanded="false" />
-                <element signature="e#5788#5789#0" expanded="false" />
-                <element signature="e#5830#5831#0" expanded="false" />
-                <element signature="e#5859#5860#0" expanded="false" />
-                <element signature="e#5891#5892#0" expanded="false" />
-                <element signature="e#5919#5920#0" expanded="false" />
-                <element signature="e#5961#5962#0" expanded="false" />
-                <element signature="e#5990#5991#0" expanded="false" />
-                <element signature="e#6022#6023#0" expanded="false" />
-                <element signature="e#6050#6051#0" expanded="false" />
-                <element signature="e#6092#6093#0" expanded="false" />
-                <element signature="e#6121#6122#0" expanded="false" />
-                <element signature="e#6154#6155#0" expanded="false" />
-                <element signature="e#6183#6184#0" expanded="false" />
-                <element signature="e#6227#6228#0" expanded="false" />
-                <element signature="e#6258#6259#0" expanded="false" />
-                <element signature="e#6292#6293#0" expanded="false" />
-                <element signature="e#6322#6323#0" expanded="false" />
-                <element signature="e#6368#6369#0" expanded="false" />
-                <element signature="e#6401#6402#0" expanded="false" />
-                <element signature="e#6434#6435#0" expanded="false" />
-                <element signature="e#6463#6464#0" expanded="false" />
-                <element signature="e#6507#6508#0" expanded="false" />
-                <element signature="e#6538#6539#0" expanded="false" />
-                <element signature="e#6570#6571#0" expanded="false" />
-                <element signature="e#6598#6599#0" expanded="false" />
-                <element signature="e#6640#6641#0" expanded="false" />
-                <element signature="e#6669#6670#0" expanded="false" />
-                <element signature="e#6700#6701#0" expanded="false" />
-                <element signature="e#6727#6728#0" expanded="false" />
-                <element signature="e#6767#6768#0" expanded="false" />
-                <element signature="e#6794#6795#0" expanded="false" />
-                <element signature="e#6826#6827#0" expanded="false" />
-                <element signature="e#6854#6855#0" expanded="false" />
-                <element signature="e#6896#6897#0" expanded="false" />
-                <element signature="e#6930#6931#0" expanded="false" />
-                <element signature="e#6962#6963#0" expanded="false" />
-                <element signature="e#6990#6991#0" expanded="false" />
-                <element signature="e#7032#7033#0" expanded="false" />
-                <element signature="e#7066#7067#0" expanded="false" />
-                <element signature="e#7099#7100#0" expanded="false" />
-                <element signature="e#7128#7129#0" expanded="false" />
-                <element signature="e#7172#7173#0" expanded="false" />
-                <element signature="e#7203#7204#0" expanded="false" />
-                <element signature="e#7236#7237#0" expanded="false" />
-                <element signature="e#7265#7266#0" expanded="false" />
-                <element signature="e#7309#7310#0" expanded="false" />
-                <element signature="e#7345#7346#0" expanded="false" />
-                <element signature="e#7378#7379#0" expanded="false" />
-                <element signature="e#7407#7408#0" expanded="false" />
-                <element signature="e#7451#7452#0" expanded="false" />
-                <element signature="e#7487#7488#0" expanded="false" />
-                <element signature="e#7520#7521#0" expanded="false" />
-                <element signature="e#7549#7550#0" expanded="false" />
-                <element signature="e#7593#7594#0" expanded="false" />
-                <element signature="e#7629#7630#0" expanded="false" />
-                <element signature="e#7661#7662#0" expanded="false" />
-                <element signature="e#7689#7690#0" expanded="false" />
-                <element signature="e#7731#7732#0" expanded="false" />
-                <element signature="e#7765#7766#0" expanded="false" />
-                <element signature="e#7798#7799#0" expanded="false" />
-                <element signature="e#7827#7828#0" expanded="false" />
-                <element signature="e#7871#7872#0" expanded="false" />
-                <element signature="e#7907#7908#0" expanded="false" />
-                <element signature="e#7939#7940#0" expanded="false" />
-                <element signature="e#7967#7968#0" expanded="false" />
-                <element signature="e#8009#8010#0" expanded="false" />
-                <element signature="e#8043#8044#0" expanded="false" />
-                <element signature="e#8076#8077#0" expanded="false" />
-                <element signature="e#8105#8106#0" expanded="false" />
-                <element signature="e#8149#8150#0" expanded="false" />
-                <element signature="e#8180#8181#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2371,6 +2236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2813,12 +2679,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane />
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2828,7 +2693,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlueBoothPinter2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/com" />
     <property name="ExportApk.ApkPath" value="E:\apk1" />
     <property name="ExportApk.Flavors" value="" />
@@ -3309,8 +3174,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3117409" sideWeight="0.82234955" order="13" side_tool="false" content_ui="tabs" />
@@ -3319,14 +3184,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10526316" sideWeight="0.17765044" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36032388" sideWeight="0.69627506" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26862463" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25910932" sideWeight="0.7141834" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35762483" sideWeight="0.49713466" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25910932" sideWeight="0.7141834" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635984" sideWeight="0.49713466" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28151864" sideWeight="0.48034933" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28151864" sideWeight="0.48034933" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17836677" sideWeight="0.4585153" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3340,6 +3204,7 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26778242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26862463" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3402,13 +3267,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_waiting_dialog.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/cxg/boothpinter/R.java">
@@ -3476,13 +3341,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/DatePicker.java">
@@ -3500,13 +3365,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/date_picker.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://D:/sdk/adt-bundle-windows-x86_64_with_Android_5.0/sdk/platforms/android-25/data/res/values/colors.xml">
@@ -3532,25 +3397,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_sysinfo_detail.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/statusbox.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/statusbox.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/ExitApplication.java">
@@ -3570,14 +3435,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_booth.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
@@ -3632,31 +3497,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/statusbox_shape.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sysinfo.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sysinfo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_booth.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_booth.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="40" />
@@ -3664,6 +3526,9 @@
             <element signature="e#843#861#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/utils/StatusBox.java">
@@ -3730,141 +3595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2322">
           <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2157#2158#0" expanded="false" />
-            <element signature="e#2180#2181#0" expanded="false" />
-            <element signature="e#3748#3749#0" expanded="false" />
-            <element signature="e#3792#3793#0" expanded="false" />
-            <element signature="e#3824#3825#0" expanded="false" />
-            <element signature="e#3852#3853#0" expanded="false" />
-            <element signature="e#3894#3895#0" expanded="false" />
-            <element signature="e#3923#3924#0" expanded="false" />
-            <element signature="e#3957#3958#0" expanded="false" />
-            <element signature="e#3987#3988#0" expanded="false" />
-            <element signature="e#4033#4034#0" expanded="false" />
-            <element signature="e#4066#4067#0" expanded="false" />
-            <element signature="e#4098#4099#0" expanded="false" />
-            <element signature="e#4126#4127#0" expanded="false" />
-            <element signature="e#4168#4169#0" expanded="false" />
-            <element signature="e#4197#4198#0" expanded="false" />
-            <element signature="e#4230#4231#0" expanded="false" />
-            <element signature="e#4259#4260#0" expanded="false" />
-            <element signature="e#4303#4304#0" expanded="false" />
-            <element signature="e#4334#4335#0" expanded="false" />
-            <element signature="e#4366#4367#0" expanded="false" />
-            <element signature="e#4394#4395#0" expanded="false" />
-            <element signature="e#4436#4437#0" expanded="false" />
-            <element signature="e#4465#4466#0" expanded="false" />
-            <element signature="e#4498#4499#0" expanded="false" />
-            <element signature="e#4527#4528#0" expanded="false" />
-            <element signature="e#4571#4572#0" expanded="false" />
-            <element signature="e#4602#4603#0" expanded="false" />
-            <element signature="e#4632#4633#0" expanded="false" />
-            <element signature="e#4658#4659#0" expanded="false" />
-            <element signature="e#4696#4697#0" expanded="false" />
-            <element signature="e#4721#4722#0" expanded="false" />
-            <element signature="e#4757#4758#0" expanded="false" />
-            <element signature="e#4789#4790#0" expanded="false" />
-            <element signature="e#4839#4840#0" expanded="false" />
-            <element signature="e#4876#4877#0" expanded="false" />
-            <element signature="e#4908#4909#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4978#4979#0" expanded="false" />
-            <element signature="e#5007#5008#0" expanded="false" />
-            <element signature="e#5043#5044#0" expanded="false" />
-            <element signature="e#5075#5076#0" expanded="false" />
-            <element signature="e#5125#5126#0" expanded="false" />
-            <element signature="e#5162#5163#0" expanded="false" />
-            <element signature="e#5197#5198#0" expanded="false" />
-            <element signature="e#5228#5229#0" expanded="false" />
-            <element signature="e#5276#5277#0" expanded="false" />
-            <element signature="e#5311#5312#0" expanded="false" />
-            <element signature="e#5347#5348#0" expanded="false" />
-            <element signature="e#5379#5380#0" expanded="false" />
-            <element signature="e#5429#5430#0" expanded="false" />
-            <element signature="e#5466#5467#0" expanded="false" />
-            <element signature="e#5498#5499#0" expanded="false" />
-            <element signature="e#5526#5527#0" expanded="false" />
-            <element signature="e#5568#5569#0" expanded="false" />
-            <element signature="e#5597#5598#0" expanded="false" />
-            <element signature="e#5629#5630#0" expanded="false" />
-            <element signature="e#5657#5658#0" expanded="false" />
-            <element signature="e#5699#5700#0" expanded="false" />
-            <element signature="e#5728#5729#0" expanded="false" />
-            <element signature="e#5760#5761#0" expanded="false" />
-            <element signature="e#5788#5789#0" expanded="false" />
-            <element signature="e#5830#5831#0" expanded="false" />
-            <element signature="e#5859#5860#0" expanded="false" />
-            <element signature="e#5891#5892#0" expanded="false" />
-            <element signature="e#5919#5920#0" expanded="false" />
-            <element signature="e#5961#5962#0" expanded="false" />
-            <element signature="e#5990#5991#0" expanded="false" />
-            <element signature="e#6022#6023#0" expanded="false" />
-            <element signature="e#6050#6051#0" expanded="false" />
-            <element signature="e#6092#6093#0" expanded="false" />
-            <element signature="e#6121#6122#0" expanded="false" />
-            <element signature="e#6154#6155#0" expanded="false" />
-            <element signature="e#6183#6184#0" expanded="false" />
-            <element signature="e#6227#6228#0" expanded="false" />
-            <element signature="e#6258#6259#0" expanded="false" />
-            <element signature="e#6292#6293#0" expanded="false" />
-            <element signature="e#6322#6323#0" expanded="false" />
-            <element signature="e#6368#6369#0" expanded="false" />
-            <element signature="e#6401#6402#0" expanded="false" />
-            <element signature="e#6434#6435#0" expanded="false" />
-            <element signature="e#6463#6464#0" expanded="false" />
-            <element signature="e#6507#6508#0" expanded="false" />
-            <element signature="e#6538#6539#0" expanded="false" />
-            <element signature="e#6570#6571#0" expanded="false" />
-            <element signature="e#6598#6599#0" expanded="false" />
-            <element signature="e#6640#6641#0" expanded="false" />
-            <element signature="e#6669#6670#0" expanded="false" />
-            <element signature="e#6700#6701#0" expanded="false" />
-            <element signature="e#6727#6728#0" expanded="false" />
-            <element signature="e#6767#6768#0" expanded="false" />
-            <element signature="e#6794#6795#0" expanded="false" />
-            <element signature="e#6826#6827#0" expanded="false" />
-            <element signature="e#6854#6855#0" expanded="false" />
-            <element signature="e#6896#6897#0" expanded="false" />
-            <element signature="e#6930#6931#0" expanded="false" />
-            <element signature="e#6962#6963#0" expanded="false" />
-            <element signature="e#6990#6991#0" expanded="false" />
-            <element signature="e#7032#7033#0" expanded="false" />
-            <element signature="e#7066#7067#0" expanded="false" />
-            <element signature="e#7099#7100#0" expanded="false" />
-            <element signature="e#7128#7129#0" expanded="false" />
-            <element signature="e#7172#7173#0" expanded="false" />
-            <element signature="e#7203#7204#0" expanded="false" />
-            <element signature="e#7236#7237#0" expanded="false" />
-            <element signature="e#7265#7266#0" expanded="false" />
-            <element signature="e#7309#7310#0" expanded="false" />
-            <element signature="e#7345#7346#0" expanded="false" />
-            <element signature="e#7378#7379#0" expanded="false" />
-            <element signature="e#7407#7408#0" expanded="false" />
-            <element signature="e#7451#7452#0" expanded="false" />
-            <element signature="e#7487#7488#0" expanded="false" />
-            <element signature="e#7520#7521#0" expanded="false" />
-            <element signature="e#7549#7550#0" expanded="false" />
-            <element signature="e#7593#7594#0" expanded="false" />
-            <element signature="e#7629#7630#0" expanded="false" />
-            <element signature="e#7661#7662#0" expanded="false" />
-            <element signature="e#7689#7690#0" expanded="false" />
-            <element signature="e#7731#7732#0" expanded="false" />
-            <element signature="e#7765#7766#0" expanded="false" />
-            <element signature="e#7798#7799#0" expanded="false" />
-            <element signature="e#7827#7828#0" expanded="false" />
-            <element signature="e#7871#7872#0" expanded="false" />
-            <element signature="e#7907#7908#0" expanded="false" />
-            <element signature="e#7939#7940#0" expanded="false" />
-            <element signature="e#7967#7968#0" expanded="false" />
-            <element signature="e#8009#8010#0" expanded="false" />
-            <element signature="e#8043#8044#0" expanded="false" />
-            <element signature="e#8076#8077#0" expanded="false" />
-            <element signature="e#8105#8106#0" expanded="false" />
-            <element signature="e#8149#8150#0" expanded="false" />
-            <element signature="e#8180#8181#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3872,17 +3603,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
           <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3006">
+        <state relative-caret-position="2934">
           <caret line="192" column="13" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3892,7 +3619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BlueBoothPinterDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
+        <state relative-caret-position="2718">
           <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
           <folding />
         </state>
@@ -3902,32 +3629,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
           <caret line="67" column="81" selection-start-line="67" selection-start-column="81" selection-end-line="67" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1268#1269#0" expanded="false" />
-            <element signature="e#1308#1309#0" expanded="false" />
-            <element signature="e#1365#1366#0" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1469#1470#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_booth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cxg/boothpinter/activity/BoothActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
+        <state relative-caret-position="756">
           <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
           <folding />
         </state>

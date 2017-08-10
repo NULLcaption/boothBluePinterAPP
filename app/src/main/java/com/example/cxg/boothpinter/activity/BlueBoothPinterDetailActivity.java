@@ -45,7 +45,7 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
     private TextView lgmng;
     private TextView Zmenge;
     private EditText Zgrdate, Zproddate;
-    private TextView erfmgl,IZipcode,Charg;
+    private TextView erfmgl, IZipcode, Charg;
     private EditText mark, Qcnum;
     private Button printer, backHome, exit;
     private Zslips zslips;
@@ -233,25 +233,33 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
                     } else if (factory.equals("天津工厂")) {
                         zslips_001.setWerks("3000");
                     }
-                    //单位{BAO=包, GUO=锅, TAO=套, BEI=杯, BOX=箱, KG=公斤, DAI=袋, HE=盒, GE=个}
+                    //单位{GUO=锅, TAO=套, BEI=杯, PIA=片, BOX=箱, DAI=袋, BAO=包, PIN=瓶, TI=提, JUA=卷, KG=公斤, HE=盒, GE=个}
                     if ("个".equals(zslips.getMeins())) {
                         zslips_001.setMeins("GE");
-                    } else if ("盒".equals(zslips.getMeins())){
+                    } else if ("盒".equals(zslips.getMeins())) {
                         zslips_001.setMeins("HE");
-                    } else if ("袋".equals(zslips.getMeins())){
+                    } else if ("袋".equals(zslips.getMeins())) {
                         zslips_001.setMeins("DAI");
-                    } else if ("公斤".equals(zslips.getMeins())){
+                    } else if ("公斤".equals(zslips.getMeins())) {
                         zslips_001.setMeins("KG");
-                    } else if ("箱".equals(zslips.getMeins())){
+                    } else if ("箱".equals(zslips.getMeins())) {
                         zslips_001.setMeins("BOX");
-                    } else if ("杯".equals(zslips.getMeins())){
+                    } else if ("杯".equals(zslips.getMeins())) {
                         zslips_001.setMeins("BEI");
-                    } else if ("套".equals(zslips.getMeins())){
+                    } else if ("套".equals(zslips.getMeins())) {
                         zslips_001.setMeins("TAO");
-                    } else if ("锅".equals(zslips.getMeins())){
+                    } else if ("锅".equals(zslips.getMeins())) {
                         zslips_001.setMeins("GUO");
-                    } else if ("包".equals(zslips.getMeins())){
+                    } else if ("包".equals(zslips.getMeins())) {
                         zslips_001.setMeins("BAO");
+                    } else if ("片".equals(zslips.getMeins())) {
+                        zslips_001.setMeins("PIA");
+                    } else if ("瓶".equals(zslips.getMeins())) {
+                        zslips_001.setMeins("PIN");
+                    } else if ("提".equals(zslips.getMeins())) {
+                        zslips_001.setMeins("TI");
+                    } else if ("卷".equals(zslips.getMeins())) {
+                        zslips_001.setMeins("JUA");
                     }
                     //生成托盘编码
                     try {
@@ -260,16 +268,15 @@ public class BlueBoothPinterDetailActivity extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    System.out.println("IZipcode==========>"+IZipcode.getText().toString());
                     //打印
-                    if (!"".equals(IZipcode.getText().toString())){
+                    if (!"".equals(IZipcode.getText().toString())) {
                         //新建一个显式意图，第一个参数为当前Activity类对象，第二个参数为你要打开的Activity类
                         Intent intent = new Intent(BlueBoothPinterDetailActivity.this, BoothActivity.class);
                         //绑定数据赋值
                         zslips_001.setZipcode(IZipcode.getText().toString());
                         zslips_001.setCharg(Charg.getText().toString());
                         //绑定数据
-                        intent.putExtra("zslips",zslips_001);
+                        intent.putExtra("zslips", zslips_001);
                         //进入到下一个Activity
                         startActivity(intent);
                         //过场动画
